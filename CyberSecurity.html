@@ -1,0 +1,1616 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CyberSecurity & Ethical Hacking | Geek Institute</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("is_dark");
+        } 
+        if (localStorage.getItem("theme-color") === "light") {
+          document.documentElement.classList.remove("is_dark");
+        } 
+    </script>
+
+</head>
+
+
+<body class="body__wrapper">
+    <!-- pre loader area start -->
+    <div id="back__preloader">
+        <div id="back__circle_loader"></div>
+            <div class="back__loader_logo">
+                <img src="img/pre.png" alt="Preload">
+            </div>
+        </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- Dark/Light area start -->
+    <div class="mode_switcher my_switcher">
+        <button id="light--to-dark-button" class="light align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"/><circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg>
+
+            <span class="light__mode">Light</span>
+            <span class="dark__mode">Dark</span>
+        </button>
+    </div>
+    <!-- Dark/Light area end -->
+
+    <main class="main_wrapper">
+
+        <!-- topbar__section__stert -->
+        <div class="topbararea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__left">
+                            <ul>
+                                <li>
+                                    Call Us: +91 8882618533
+                                </li>
+                                <li>
+                                    - Mail Us: info@geekinstitute.org
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__right">
+                            <div class="topbar__icon">
+                                <i class="icofont-location-pin"></i>
+                            </div>
+                            <div class="topbar__text">
+                                <p>Kapashera, New Delhi, India</p>
+                            </div>
+                            <div class="topbar__list">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/GeekInstitute/"><i class="icofont-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar__section__end -->
+
+              
+       <!-- headar section start -->
+       <header>
+        <div class="headerarea headerarea__3 header__sticky header__area">
+            <div class="container desktop__menu__wrapper">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-6">
+                        <div class="headerarea__left">
+                            <div class="headerarea__left__logo">
+
+                                <a href="index.html"><img src="img/logo/logo_1.png" alt="logo"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 main_menu_wrap">
+                        <div class="headerarea__main__menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</li>
+
+                                    <li><a class="headerarea__has__dropdown" href="about.html">About
+                                  
+                                </a>
+
+                                    </li>
+                                    <!-- <li><a href="blog.html">Blog</a></li> -->
+
+                                    <li><a class="headerarea__has__dropdown" href="courses.html">Course
+                                    <i class="icofont-rounded-down"></i>
+                                </a>
+                                        <ul class="headerarea__submenu">
+                                            <li><a href="CyberSecurity.html">Cyber Security &amp; Ethical Hacking</a></li>
+                                            <li><a href="WebsiteDevelopment.html">Website Designing &amp; Development</a></li>
+                                            <li><a href="WebsiteDesigning.html">Website Front-end</a></li>
+                                            <li><a href="WebsiteBackend.html">Website Back-end</a></li>
+                                            <li><a href="ccc.html">CCC</a></li>
+                                            
+                                            <li><a href="dca.html">DCA</a></li>
+                                            <li><a href="adca.html">ADCA</a></li>
+                                           <li><a href="LinuxServerAdmin.html">LinuxServerAdmin</a></li>
+                                             <li><a href="WindowsServerAdmin.html">WindowsServerAdmin</a></li>
+                                            <li><a href="courses.html">All Courses</a></li>
+
+
+                                        </ul>
+                                    </li>
+
+
+                                    <li><a class="headerarea__has__dropdown" href="instructor.html">Programming
+                                    <i class="icofont-rounded-down"></i>
+                                    </a>
+                                        <ul class="headerarea__submenu">
+
+                                            <li><a href="html.html">HTML</a></li>
+                                            <li><a href="css.html">CSS</a></li>
+                                            <li><a href="javascript.html">Java Script</a></li>
+                                            <li><a href="sass.html">Sass</a></li>
+                                            <li><a href="php.html">PHP</a></li>
+                                            <li><a href="mysql.html">MySQL</a></li>
+                                            <li><a href="git.html">Git &amp; GitHub</a></li>
+                                            <li><a href="javahtml">Java</a></li>
+                                            <li><a href="python.html">Python</a></li>
+                                            <li><a href="c.html">C/C++</a></li>
+                                            <li><a href="wordpress.html">Wordpress</a></li>
+                                            <li><a href="linux.html">Linux</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a>
+
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="headerarea__right">
+                            <div class="headerarea__login">
+                                <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                            </div>
+                            <div class="headerarea__button">
+                                <a href="tel://+918882618533"><i class="icofont-ui-call"></i> +91 8882618533</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid mob_menu_wrapper">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="mobile-logo">
+                        <a class="logo__dark" href="#"><img src="img/logo/logo_1.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header-right-wrap">
+
+                        <div class="mobile-off-canvas">
+                            <a class="mobile-aside-button" href="#"><i class="icofont-navigation-menu"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- Mobile Menu Start Here -->
+    <div class="mobile-off-canvas-active">
+        <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
+        <div class="header-mobile-aside-wrap">
+            <div class="mobile-search">
+                <form class="search-form" action="#">
+                    <input type="text" placeholder="Search">
+                    <button class="button-search"><i class="icofont icofont-search-2"></i></button>
+                </form>
+            </div>
+            <div class="mobile-menu-wrap">
+
+                <div class="mobile-navigation">
+
+                    <nav>
+                        <ul class="mobile-menu">
+                            <li class="menu-item-has-children"><a href="index.html">Home</a>
+                            </li>
+                            <li class="menu-item-has-children "><a href="about.html">About</a></li>
+
+                            <!-- <li class="menu-item-has-children"><a href="portfolio.html">blog</a></li> -->
+                            <li class="menu-item-has-children "><a href="courses.html">Course</a>
+                                <ul class="dropdown">
+                                    <li><a href="CyberSecurity.html">Cyber Security &amp; Ethical Hacking</a></li>
+                                    <li><a href="WebsiteDevelopment.html">Website Designing &amp; Development</a></li>
+                                    <li><a href="WebsiteDesigning.html">Website Front-end</a></li>
+                                    <li><a href="WebsiteBackend.html">Website Back-end</a></li>
+                                    <li><a href="ccc.html">CCC</a></li>
+                                    
+                                    <li><a href="dca.html">DCA</a></li>
+                                    <li><a href="adca.html">ADCA</a></li>
+                                   <li><a href="LinuxServerAdmin.html">LinuxServerAdmin</a></li>
+                                     <li><a href="WindowsServerAdmin.html">WindowsServerAdmin</a></li>
+                                    <li><a href="courses.html">All Courses</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children "><a href="courses.html">Programming</a>
+                                <ul class="dropdown">
+
+                                    <li><a href="html.html">HTML</a></li>
+                                    <li><a href="css.html">CSS</a></li>
+                                    <li><a href="javascript.html">Java Script</a></li>
+                                    <li><a href="sass.html">Sass</a></li>
+                                    <li><a href="php.html">PHP</a></li>
+                                    <li><a href="mysql.html">MySQL</a></li>
+                                    <li><a href="git.html">Git &amp; GitHub</a></li>
+                                    <li><a href="javahtml">Java</a></li>
+                                    <li><a href="python.html">Python</a></li>
+                                    <li><a href="c.html">C/C++</a></li>
+                                    <li><a href="wordpress.html">Wordpress</a></li>
+                                    <li><a href="linux.html">Linux</a></li>
+
+                                </ul>
+                            </li>
+
+                            
+
+                            <li><a class="menu-item-has-children" href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+            <div class="mobile-social-wrap">
+                <a class="facebook" href="https://www.facebook.com/GeekInstitute/"><i class="icofont icofont-facebook"></i></a>
+                <a class="twitter" href="https://twitter.com/Geek_Institute/"><i class="icofont icofont-twitter"></i></a>
+                <a class="instagram" href="https://www.instagram.com/geekinstitute/"><i class="icofont icofont-instagram"></i></a>
+                <a class="google" href="https://www.youtube.com/@TheGeekInstitute/"><i class="icofont icofont-youtube-play"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu end Here -->
+        <!-- theme fixed shadow -->
+        <div>
+            <div class="theme__shadow__circle"></div>
+            <div class="theme__shadow__circle shadow__right"></div>
+        </div>
+        <!-- theme fixed shadow -->
+        <!-- breadcrumbarea__section__start -->
+
+        <div class="breadcrumbarea breadcrumbarea--3">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+
+
+                        <div class="breadcrumb__content__wraper" data-aos="fade-up">
+                            <div class="breadcrumb__inner text-start">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li>Cyber Security & Ethical Hacking</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="course__details__top--2">
+
+                            <div class="course__button__wraper" data-aos="fade-up">
+                                <div class="course__button">
+                                    <a href="#">Ethical Hacking</a>
+                                    <!-- <a class="course__2" href="#">Ux Design</a> -->
+                                </div>
+                            </div>
+                            <div class="course__details__heading" data-aos="fade-up">
+                                <h3>Cyber Security & Ethical Hacking</h3>
+                            </div>
+
+                            <div class="blogarae__img__2 course__details__img__2" data-aos="fade-up">
+                                <img src="img/courses/cyber_security.png" alt="blog">
+
+                                <div class="registerarea__content course__details__video">
+                                    <div class="registerarea__video">
+                                        <div class="video__pop__btn">
+                                            <a class="video-btn" href="Videos/hacking.mp4"> <img src="img/icon/video.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape__icon__2">
+                <img class=" shape__icon__img shape__icon__img__1" src="img/herobanner/herobanner__1.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__2" src="img/herobanner/herobanner__2.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__3" src="img/herobanner/herobanner__3.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__4" src="img/herobanner/herobanner__5.png" alt="photo">
+            </div>
+
+        </div>
+        <!-- breadcrumbarea__section__end-->
+
+        <div class="blogarea__2 sp_top_100 sp_bottom_100">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xl-8 col-lg-8">
+
+
+                        <div class="blog__details__content__wraper">
+
+                            <div class="course__details__tab__wrapper" data-aos="fade-up">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <ul class="nav  course__tap__wrap" id="myTab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="single__tab__link active" data-bs-toggle="tab" data-bs-target="#projects__one" type="button"><i class="icofont-paper"></i>Description</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="single__tab__link" data-bs-toggle="tab" data-bs-target="#projects__two" type="button"><i class="icofont-book-alt"></i>Course Outline</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-content tab__content__wrapper" id="myTabContent">
+
+                                    <div class="tab-pane fade active show" id="projects__one" role="tabpanel" aria-labelledby="projects__one">
+                                        <div class="experence__heading">
+                                            <h5>Course Description:</h5>
+                                        </div>
+                                        <div class="experence__description">
+                                            <p class="description__1">This intensive year-long course is designed to equip participants with a deep understanding of cyber security principles, practices, and ethical hacking techniques. The curriculum covers a wide range of topics, from foundational concepts to advanced penetration testing skills, while emphasizing the ethical and responsible use of hacking methodologies.
+                                            </p>
+                                            
+                                            <div class="experence__heading">
+                                                <h5>Prerequisites:</h5>
+                                            </div>
+                                            <p>
+                                                <p class="description__2">
+                                                    <p>Strong understanding of computer networks, operating systems, and programming languages</p>
+                                                    <p>Familiarity with basic cyber security concepts</p>
+                                                    <p>Proficiency in using computers and the internet</p>
+                                                </p>
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="projects__two" role="tabpanel" aria-labelledby="projects__two">
+
+
+                                        <div class="accordion content__cirriculum__wrap" id="accordionExample">
+                                            
+                                            
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Module 1:  Introduction to Cyber Security & Ethical Hacking
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>The evolution of cyber threats and attacks</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Principles of cyber security: confidentiality, integrity, availability</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Risk management and threat modeling</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Legal and ethical considerations in cyber security</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                   Module 2: Networking Fundamentals
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>OSI model and TCP/IP stack review</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5> IP addressing and subnetting</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Network protocols and vulnerabilities</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Network topologies and architecture</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Network architecture and segmentation for security</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Intrusion Detection and Prevention Systems (IDS/IPS)</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                        Module 3: Operating System Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Operating system concepts and types</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Common OS vulnerabilities and exploits</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>User authentication mechanisms and access controls</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Securing operating systems: Windows, Linux, macOS</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Patch management and system hardening</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFour">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                    Module 4:  Web Application Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Web application architecture and components</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>OWASP Top Ten vulnerabilities</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Secure coding practices and frameworks</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Web application firewalls and security tools</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFive">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                                    Module 5:  Ethical Hacking Methodology
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Understanding ethical hacking and penetration testing</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Principles of ethical hacking and penetration testing</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Information gathering and reconnaissance techniques</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Scanning and enumeration: tools and methodologies</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Vulnerability assessment and reporting</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSix">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                                    Module 6:  Exploitation and Post-Exploitation
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Exploiting vulnerabilities: Metasploit, ExploitDB</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Privilege escalation and maintaining access</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Covering tracks and post-exploitation activities</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Legal and ethical aspects of penetration testing</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSeven">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                                    Module 7: Network Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Firewalls, VPNs, Intrusion Detection Systems (IDS)</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Virtual Private Networks (VPNs) and encryption</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Wireless network security: WEP, WPA, WPA2, WPA3</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>WiFi Password Cracking & Jamming</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Network monitoring and incident response</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Network architecture design for security</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingEight">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                                    Module 8: Cryptography and Secure Communications
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Cryptographic algorithms and protocols</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Public key infrastructure (PKI) and digital certificates</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Secure communication channels: SSL/TLS, SSH</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Implementing encryption in various applications</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFive">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                                    Module 9:  Advanced Web Application Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Advanced SQL injection techniques</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Cross-Site Scripting (XSS) variants</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5><strong>Understanding the vulnerabilities and wayTen Exploiting:</strong>
+                                                                    
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            SQL Injection (SQLi)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Cross-Site Scripting (XSS)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Cross-Site Request Forgery (CSRF)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Remote Code Execution (RCE)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            File Inclusion Vulnerabilities(LFI/RFI)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Server-Side Request Forgery (SSRF)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            XML External Entity (XXE) Attacks
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Security Misconfigurations
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Insecure Deserialization
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Broken Authentication
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Insecure Direct Object References (IDOR)
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Sensitive Data Exposure
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Clickjacking
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Unvalidated Redirects and Forwards
+                                                                        </p>
+                                                                        <p>
+                                                                            <i class="icofont-star"></i>
+                                                                            Server-Side Template Injection (SSTI)
+                                                                        </p>
+                                                                    
+                                                                    
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Application security assessments: Source code review, DAST, SAST</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Secure DevOps and continuous security testing</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Vulnerability assessment and reporting</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                                    Module 10: Cloud and Virtualization Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Cloud computing models and security challenges</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Cloud service provider security features</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Securing virtual environments and containers</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Identity and access management in the cloud</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingEleven">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                                                    Module 11:  Mobile and IoT Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Mobile app security assessments</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Securing mobile devices and APIs</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>IoT security challenges and best practices</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Security implications of wearable technology</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwelve">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                                                    Module 12: Threat Hunting and Incident Response
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Threat intelligence and analysis</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Incident detection, handling, and mitigation</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Digital forensics techniques and tools</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Designing and implementing incident response plans</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFourteen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+                                                    Module 13: Network Penetration Testing
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>In-depth network penetration testing methodologies</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Advanced reconnaissance and OSINT techniques</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Exploiting complex network vulnerabilities</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Reporting and communicating findings effectively</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFifteen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                                                    Module 14:  Wireless and Mobile Penetration Testing
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Wireless network vulnerabilities and attacks</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Mobile app reverse engineering and analysis</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Advanced mobile exploitation techniques</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Ethical considerations in wireless and mobile testing</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSixteen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+                                                    Module 15:  Advanced Exploitation Techniques
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Kernel-level vulnerabilities and exploitation</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>Advanced memory corruption attacks</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Writing custom exploits and payloads</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Mitigations and defenses against advanced attacks</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSeventeen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
+                                                    Module 16:  Red Team Operations
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Red teaming methodologies and planning</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>Infrastructure setup and covert communication</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Realistic attack simulations and evasion tactics</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Post-engagement reporting and debriefing</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingEighteen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+                                                    Module 17: Blockchain and Cryptocurrency Security
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Understanding blockchain technology</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>Cryptocurrency vulnerabilities and risks</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Smart contract security and auditing</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingNineteen">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
+                                                   Module 18:  Security Research and Emerging Threats
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Emerging cyber threats and attack vectors</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>Participating in bug bounty programs</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Responsible disclosure and vulnerability coordination</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Contributing to the cyber security community</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwenty">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+                                                    Module 19:  Legal and Ethical Considerations
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Cyber laws and regulations worldwide</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>Ethics in cyber security and hacking</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>Liability and responsibility of ethical hackers</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwentyOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne" aria-expanded="true" aria-controls="collapseTwentyOne">
+                                                   Module 20: Addon | Programming Languages
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>C/C++ Programming</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+
+                                                                <h5>x86_64 Assembly Language</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                
+                                                                <h5>PHP Programming for Vulnerable WebApps Development</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course__list__wraper" data-aos="fade-up">
+                                <div class="blog__details__heading__2">
+                                    <h5>Course Objectives:</h5>
+                                    <p>By the end of this program, students should be able to:</p>
+                                </div>
+                                <div class="aboutarea__list__2 blog__details__list__2" data-aos="fade-up">
+                                    <ul>
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Ethical Hacker/Penetration Tester:</strong> This is a common role where you would be responsible for simulating cyberattacks on systems, networks, and applications to identify vulnerabilities. Your goal is to find weaknesses before malicious hackers can exploit them.</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p> <strong>Security Analyst:</strong> Security analysts monitor an organization's systems for security breaches and incidents, and they respond to them when they occur. They also analyze security data to help prevent future breaches.</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Security Consultant:</strong> Security consultants provide expert advice to organizations on how to secure their systems and data. They may conduct security assessments, recommend security solutions, and assist with policy development.</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Security Engineer:</strong> Security engineers design and implement security systems and measures to protect an organization's infrastructure. This could involve working on firewalls, intrusion detection systems, encryption, and more.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Incident Responder:</strong> Incident responders are the first line of defense when a security breach or cyberattack occurs. They investigate and mitigate security incidents, analyze the nature of the attack, and work to prevent further damage.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Security Architect:</strong> Security architects design and build the security infrastructure of an organization. They create plans for implementing security measures, considering factors like network design, access controls, and encryption.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Security Manager/Director: </strong> These roles involve overseeing an organization's entire security program. This includes managing security teams, developing security policies, and ensuring compliance with industry regulations.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Forensic Analyst:</strong> Forensic analysts investigate cybercrimes and security incidents by analyzing digital evidence. They collect, preserve, and analyze data to determine how a breach occurred and who might be responsible.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Vulnerability Researcher: </strong>  Vulnerability researchers identify new security vulnerabilities in software, hardware, and systems. They often work for security companies or research institutions to find and report these vulnerabilities responsibly.</p>
+                                        </li>
+
+                                        <li>
+                                            <i class="icofont-check"></i>
+                                            <p><strong>Security Trainer/Educator:</strong> With the growing demand for cybersecurity skills, there's a need for skilled trainers who can educate others in the field. You could become an instructor for cybersecurity courses or conduct workshops.</p>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="course__details__sidebar--2">
+                            <div class="event__sidebar__wraper" data-aos="fade-up">
+
+
+
+                                <div class="event__price__wraper">
+
+                                    <div class="event__price">
+                                        ₹ 24,000 <del>/ ₹ 50,000</del>
+                                    </div>
+                                    <div class="event__Price__button">
+                                        <a href="#">52% OFF</a>
+                                    </div>
+                                </div>
+
+                                <div class="event__details__list">
+                                    <ul>
+
+                                        <li>
+                                            <div class="event__details__icon">
+                                                <i class="icofont-clock-time"></i>
+                                            </div>
+                                            <div class="event__details__date">
+                                                <span class="sb_label">Duration:</span><span>12 Months</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="event__details__icon">
+                                                <i class="icofont-bulb-alt"></i>
+                                            </div>
+                                            <div class="event__details__date">
+                                                <span class="sb_label">Level:</span><span>Advanced</span>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="event__details__icon">
+                                                <i class="icofont-rupee"></i>
+                                            </div>
+                                            <div class="event__details__date">
+                                                <span class="sb_label">EMI:</span><span style="color: green;">Available</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="event__details__button">
+                                    <a class="default__button" href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join This Course Now</a>
+                                </div>
+
+                            </div>
+
+
+                            <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
+
+                                <h4 class="sidebar__title">Follow Us</h4>
+                                <div class="follow__icon">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/GeekInstitute/"><i class="icofont-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- footer__section__start -->
+<div class="footerarea">
+    <div class="container">
+        <div class="footerarea__wrapper footerarea__wrapper__2">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-8 col-sm-12" data-aos="fade-up">
+                    <div class="footerarea__inner footerarea__about__us">
+                        <div class="footerarea__heading">
+                            <h3>About us</h3>
+                        </div>
+                        <div class="footerarea__content">
+                            <p>Discover the forefront of digital expertise at our Computer Training & Information Technology Institute. Embark on a journey of hands-on learning, unraveling the complexities of IT systems, programming, and Cyber Security. Led by seasoned professionals, our immersive courses blend theory with practical application, equipping you with essential skills for a dynamic tech landscape. From ethical hacking insights to mastering network administration, ignite your potential with real-world simulations. Join our vibrant community to cultivate proficiency and innovation in the realm of technology. Your gateway to a future-proof career starts here.</p>
+                        </div>
+                        <div class="foter__bottom__text">
+                            <div class="footer__bottom__icon">
+                                <i class="icofont-clock-time"></i>
+                            </div>
+                            <div class="footer__bottom__content">
+                                <h6>Opening Hours</h6>
+                                <span>Mon - Sat(10:00 AM - 10:00 PM)</span>
+                                <span>Sunday - Closed</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2  col-md-6 col-sm-6" data-aos="fade-up">
+                    <div class="footerarea__inner">
+                        <div class="footerarea__heading">
+                            <h3>Usefull Links</h3>
+                        </div>
+                        <div class="footerarea__list">
+                            <ul>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="instructor.html">Instructors</a>
+                                </li>
+                                <li>
+                                    <a href="courses.html">All Courses</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="tel://+918882618533"> Call Now</a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                                </li>
+
+                                <li>
+                                    <a href="mailto:contact@geekinstitute.org">contact@geekinstitute.org</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" data-aos="fade-up">
+                    <div class="footerarea__inner footerarea__padding__left">
+                        <div class="footerarea__heading">
+                            <h3>Course</h3>
+                        </div>
+                        <div class="footerarea__list">
+                            <ul>
+                                <li>
+                                    <a href="CyberSecurity.html">Cyber Security & Ethical Hacking</a>
+                                </li>
+                                <li>
+                                    <a href="WebsiteDevelopment.html">Website Designing & Development</a>
+                                </li>
+                                <li>
+                                    <a href="ccc.html">CCC</a>
+                                </li>
+                                <li>
+                                    <a href="dca.html">DCA</a>
+                                </li>
+                                <li>
+                                    <a href="adca.html">ADCA</a>
+                                </li>
+                                <li>
+                                    <a href="java.html">Java Programming</a>
+                                </li>
+                                <li>
+                                    <a href="python.html">Python Programming</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerarea__copyright__wrapper footerarea__copyright__wrapper__2">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="copyright__logo">
+                        <a href="/"><img src="img/logo/logo_2.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="footerarea__copyright__content footerarea__copyright__content__2">
+                        <p align="center">Copyright © <span id="year"></span> <a href="https://www.geekinstitute.org" >The Geek Institute Of Cyber Security</a> All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3">
+                    <div class="footerarea__icon footerarea__icon__2">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/GeekInstitute/"><i class="icofont-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- footer__section__end -->
+    </main>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+        } 
+        if (localStorage.getItem("theme-color") === "light") {
+          document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+        } 
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+
+
+</body>
+
+</html>

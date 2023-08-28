@@ -1,0 +1,1405 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>All Courses | Geek Institute</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/aos.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/icofont.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    
+    
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+              document.documentElement.classList.add("is_dark");
+            } 
+            if (localStorage.getItem("theme-color") === "light") {
+              document.documentElement.classList.remove("is_dark");
+            } 
+        </script>
+    
+    </head>
+    
+    
+    <body class="body__wrapper">
+        <!-- pre loader area start -->
+        <div id="back__preloader">
+            <div id="back__circle_loader"></div>
+                <div class="back__loader_logo">
+                    <img src="img/pre.png" alt="Preload">
+                </div>
+            </div>
+        </div>
+        <!-- pre loader area end -->
+    
+        <!-- Dark/Light area start -->
+        <div class="mode_switcher my_switcher">
+            <button id="light--to-dark-button" class="light align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+    
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"/><circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg>
+    
+                <span class="light__mode">Light</span>
+                <span class="dark__mode">Dark</span>
+            </button>
+        </div>
+        <!-- Dark/Light area end -->
+    
+        <main class="main_wrapper">
+    
+            <!-- topbar__section__stert -->
+            <div class="topbararea">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="topbar__left">
+                                <ul>
+                                    <li>
+                                        Call Us: +91 8882618533
+                                    </li>
+                                    <li>
+                                        - Mail Us: info@geekinstitute.org
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="topbar__right">
+                                <div class="topbar__icon">
+                                    <i class="icofont-location-pin"></i>
+                                </div>
+                                <div class="topbar__text">
+                                    <p>Kapashera, New Delhi, India</p>
+                                </div>
+                                <div class="topbar__list">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/GeekInstitute/"><i class="icofont-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- topbar__section__end -->
+    
+                  
+            <!-- headar section start -->
+            <header>
+                <div class="headerarea headerarea__3 header__sticky header__area">
+                    <div class="container desktop__menu__wrapper">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-6">
+                                <div class="headerarea__left">
+                                    <div class="headerarea__left__logo">
+    
+                                        <a href="index.html"><img src="img/logo/logo_1.png" alt="logo"></a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-7 main_menu_wrap">
+                                <div class="headerarea__main__menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="index.html">Home</li>
+    
+                                            <li><a class="headerarea__has__dropdown" href="about.html">About
+                                          
+                                        </a>
+    
+                                            </li>
+                                            <!-- <li><a href="blog.html">Blog</a></li> -->
+    
+                                            <li><a class="headerarea__has__dropdown" href="courses.html">Course
+                                            <i class="icofont-rounded-down"></i>
+                                        </a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="CyberSecurity.html">Cyber Security &amp; Ethical Hacking</a></li>
+                                                    <li><a href="WebsiteDevelopment.html">Website Designing &amp; Development</a></li>
+                                                    <li><a href="WebsiteDesigning.html">Website Front-end</a></li>
+                                                    <li><a href="WebsiteBackend.html">Website Back-end</a></li>
+                                                    <li><a href="ccc.html">CCC</a></li>
+                                                    
+                                                    <li><a href="dca.html">DCA</a></li>
+                                                    <li><a href="adca.html">ADCA</a></li>
+                                                   <li><a href="LinuxServerAdmin.html">LinuxServerAdmin</a></li>
+                                                     <li><a href="WindowsServerAdmin.html">WindowsServerAdmin</a></li>
+                                                    <li><a href="courses.html">All Courses</a></li>
+    
+    
+                                                </ul>
+                                            </li>
+    
+    
+                                            <li><a class="headerarea__has__dropdown" href="instructor.html">Programming
+                                            <i class="icofont-rounded-down"></i>
+                                            </a>
+                                                <ul class="headerarea__submenu">
+    
+                                                    <li><a href="html.html">HTML</a></li>
+                                                    <li><a href="css.html">CSS</a></li>
+                                                    <li><a href="javascript.html">Java Script</a></li>
+                                                    <li><a href="sass.html">Sass</a></li>
+                                                    <li><a href="php.html">PHP</a></li>
+                                                    <li><a href="mysql.html">MySQL</a></li>
+                                                    <li><a href="git.html">Git &amp; GitHub</a></li>
+                                                    <li><a href="javahtml">Java</a></li>
+                                                    <li><a href="python.html">Python</a></li>
+                                                    <li><a href="c.html">C/C++</a></li>
+                                                    <li><a href="wordpress.html">Wordpress</a></li>
+                                                    <li><a href="linux.html">Linux</a></li>
+     
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a>
+    
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+    
+    
+                            
+                            <div class="col-xl-3 col-lg-3 col-md-6">
+                                <div class="headerarea__right">
+                                    <div class="headerarea__login">
+                                        <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                                    </div>
+                                    <div class="headerarea__button">
+                                        <a href="tel://+918882618533"><i class="icofont-ui-call"></i> +91 8882618533</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="container-fluid mob_menu_wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <div class="mobile-logo">
+                                <a class="logo__dark" href="#"><img src="img/logo/logo_1.png" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="header-right-wrap">
+    
+                                <div class="mobile-off-canvas">
+                                    <a class="mobile-aside-button" href="#"><i class="icofont-navigation-menu"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </header>
+            <!-- header section end -->
+    
+            <!-- Mobile Menu Start Here -->
+            <div class="mobile-off-canvas-active">
+                <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
+                <div class="header-mobile-aside-wrap">
+                    <div class="mobile-search">
+                        <form class="search-form" action="#">
+                            <input type="text" placeholder="Search">
+                            <button class="button-search"><i class="icofont icofont-search-2"></i></button>
+                        </form>
+                    </div>
+                    <div class="mobile-menu-wrap">
+    
+                        <div class="mobile-navigation">
+    
+                            <nav>
+                                <ul class="mobile-menu">
+                                    <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                    </li>
+                                    <li class="menu-item-has-children "><a href="about.html">About</a></li>
+    
+                                    <!-- <li class="menu-item-has-children"><a href="portfolio.html">blog</a></li> -->
+                                    <li class="menu-item-has-children "><a href="courses.html">Course</a>
+                                        <ul class="dropdown">
+                                            <li><a href="CyberSecurity.html">Cyber Security &amp; Ethical Hacking</a></li>
+                                            <li><a href="WebsiteDevelopment.html">Website Designing &amp; Development</a></li>
+                                            <li><a href="WebsiteDesigning.html">Website Front-end</a></li>
+                                            <li><a href="WebsiteBackend.html">Website Back-end</a></li>
+                                            <li><a href="ccc.html">CCC</a></li>
+                                            
+                                            <li><a href="dca.html">DCA</a></li>
+                                            <li><a href="adca.html">ADCA</a></li>
+                                           <li><a href="LinuxServerAdmin.html">LinuxServerAdmin</a></li>
+                                             <li><a href="WindowsServerAdmin.html">WindowsServerAdmin</a></li>
+                                            <li><a href="courses.html">All Courses</a></li>
+                                        </ul>
+                                    </li>
+    
+                                    <li class="menu-item-has-children "><a href="courses.html">Programming</a>
+                                        <ul class="dropdown">
+    
+                                            <li><a href="html.html">HTML</a></li>
+                                            <li><a href="css.html">CSS</a></li>
+                                            <li><a href="javascript.html">Java Script</a></li>
+                                            <li><a href="sass.html">Sass</a></li>
+                                            <li><a href="php.html">PHP</a></li>
+                                            <li><a href="mysql.html">MySQL</a></li>
+                                            <li><a href="git.html">Git &amp; GitHub</a></li>
+                                            <li><a href="javahtml">Java</a></li>
+                                            <li><a href="python.html">Python</a></li>
+                                            <li><a href="c.html">C/C++</a></li>
+                                            <li><a href="wordpress.html">Wordpress</a></li>
+                                            <li><a href="linux.html">Linux</a></li>
+    
+                                        </ul>
+                                    </li>
+    
+                                    
+    
+                                    <li><a class="menu-item-has-children" href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+    
+                        </div>
+    
+                    </div>
+                    <div class="mobile-social-wrap">
+                        <a class="facebook" href="https://www.facebook.com/GeekInstitute/"><i class="icofont icofont-facebook"></i></a>
+                        <a class="twitter" href="https://twitter.com/Geek_Institute/"><i class="icofont icofont-twitter"></i></a>
+                        <a class="instagram" href="https://www.instagram.com/geekinstitute/"><i class="icofont icofont-instagram"></i></a>
+                        <a class="google" href="https://www.youtube.com/@TheGeekInstitute/"><i class="icofont icofont-youtube-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end Here -->
+
+        <!-- theme fixed shadow -->
+        <div>
+            <div class="theme__shadow__circle"></div>
+            <div class="theme__shadow__circle shadow__right"></div>
+        </div>
+        <!-- theme fixed shadow -->
+        <!-- breadcrumbarea__section__start -->
+
+        <div class="breadcrumbarea">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb__content__wraper" data-aos="fade-up">
+                            <div class="breadcrumb__title">
+                                <h2 class="heading">All Courses</h2>
+                            </div>
+                            <div class="breadcrumb__inner">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>Course List</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape__icon__2">
+                <img class=" shape__icon__img shape__icon__img__1" src="img/herobanner/herobanner__1.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__2" src="img/herobanner/herobanner__2.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__3" src="img/herobanner/herobanner__3.png" alt="photo">
+                <img class=" shape__icon__img shape__icon__img__4" src="img/herobanner/herobanner__5.png" alt="photo">
+            </div>
+
+        </div>
+        <!-- breadcrumbarea__section__end-->
+
+        <!-- course__section__start   -->
+        <div class="coursearea sp_top_100 sp_bottom_100">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-xl-12">
+
+                        <div class="tab-content tab__content__wrapper" id="myTabContent">
+
+
+                            <div class="tab-pane fade  active show" id="projects__one" role="tabpanel" aria-labelledby="projects__one">
+
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="CyberSecurity.html"><img src="img/courses/cyber_security.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge">Ethical Hacking</div>
+                                                </div>
+                
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 23 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 12 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="CyberSecurity.html">Cyber Security & Ethical hacking</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="EthicalHacking.html"><img src="img/courses/ethical-hacking.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge">Ethical Hacking</div>
+                                                </div>
+                
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 23 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 6 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="EthicalHacking.html">Ethical hacking</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item  filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="WebsiteDevelopment.html"><img src="img/courses/website_development.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 29 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 12 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="WebsiteDevelopment.html">Website Designing & Development</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="WebsiteDesigning.html"><img src="img/courses/website.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 25 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 6 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="WebsiteDesigning.html">Website Designing (Front-end)</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="WebsiteBackend.html"><img src="img/courses/backend.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                
+                
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 6 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="WebsiteBackend.html">Website Development (Back-End)</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="html.html"><img src="img/courses/html.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="html.html">HTML</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="css.html"><img src="img/courses/css.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="css.html">CSS</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="restapi.html"><img src="img/courses/rest-api.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="restapi.html">REST API Development</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="bootstrap.html"><img src="img/courses/bootstrap.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="bootstrap.html">Bootstrap Web Development Course</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="sass.html"><img src="img/courses/sass.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="sass.html">Sass</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="javascript.html"><img src="img/courses/javascript.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="javascript.html">Java Script</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="wordpress.html"><img src="img/courses/wordpress.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Weeks
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="wordpress.html">Wordpress</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="php.html"><img src="img/courses/php.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="php.html">PHP Web Development Course</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="mysql.html"><img src="img/courses/mysql.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="mysql.html">MySQL Databasse Management </a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="ReactJs.html"><img src="img/courses/react.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                     
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="ReactJs.html">React.Js</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="NodeJs.html"><img src="img/courses/node.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="NodeJs.html">Node.Js</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter2">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="phpmyadmin.html"><img src="img/courses/phpmyadmin.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge blue__color">Website</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 36 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="phpmyadmin.html">MySQL With phpMyAdmin</a></h3>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="c.html"><img src="img/courses/c-c++.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge red__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="c.html"> C/C++ Programming</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="bash.html"><img src="img/courses/bash.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge red__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                       
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="bash.html"> BASH Shell Scripting</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="linux.html"><img src="img/courses/linux.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Linux</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="linux.html">Linux Fundamentals</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="WindowsServerAdmin.html"><img src="img/courses/windows-server.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Server</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 2 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="WindowsServerAdmin.html">Windows Server Administration</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="LinuxServerAdmin.html"><img src="img/courses/linux-server.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Server</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="LinuxServerAdmin.html">Linux Server Administration</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="windows.html"><img src="img/courses/windows.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Computer</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="windows.html">Windows Oprating System</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="DigitalMarketing.html"><img src="img/courses/digitalmarketing.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Marketing</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                      
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="DigitalMarketing.html">Digital Marketing</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="java.html"><img src="img/courses/java.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge red__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                     
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="java.html"> Java Programming Language</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="python.html"><img src="img/courses/python.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge pink__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="python.html"> Python</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="assembly.html"><img src="img/courses/asm.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge pink__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="assembly.html"> x86_64 Assembly Language</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="git.html"><img src="img/courses/github.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge pink__color">Version Control</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        <!-- <li>
+                                                            <i class="icofont-book-alt"></i> 30 Lesson
+                                                        </li> -->
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 2 Weeks
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="git.html"> Git & Github</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter3">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="MongoDB.html"><img src="img/courses/mongodb.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge pink__color">Programming</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                      
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 1 Month
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="MongoDB.html"> MongoDB</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="MS-Office.html"><img src="img/courses/msoffice.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge orange__color">Computers</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                        
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="MS-Office.html"> Microsoft Office Suite</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="adca.html"><img src="img/courses/adca.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge yellow__color">Computer</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                       
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 12 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="adca.html">Advance Diploma in Computer Application</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="dca.html"><img src="img/courses/DCA.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge yellow__color">Computer</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                      
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 6 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="dca.html"> Diploma in Computer Application</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter4">
+                                        <div class="gridarea__wraper">
+                                            <div class="gridarea__img">
+                                                <a href="ccc.html"><img src="img/courses/ccc.png" alt="grid"></a>
+                                                <div class="gridarea__small__button">
+                                                    <div class="grid__badge yellow__color">Computer</div>
+                                                </div>
+                                            </div>
+                                            <div class="gridarea__content">
+                                                <div class="gridarea__list">
+                                                    <ul>
+                                                       
+                                                        <li>
+                                                            <i class="icofont-clock-time"></i> 3 Months
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gridarea__heading">
+                                                    <h3><a href="ccc.html">Course on Computer Concepts (CCC)</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+
+
+
+
+
+                                </div>
+
+                            </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- course__section__end   -->
+
+        <!-- footer__section__start -->
+<div class="footerarea">
+    <div class="container">
+        <div class="footerarea__wrapper footerarea__wrapper__2">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-8 col-sm-12" data-aos="fade-up">
+                    <div class="footerarea__inner footerarea__about__us">
+                        <div class="footerarea__heading">
+                            <h3>About us</h3>
+                        </div>
+                        <div class="footerarea__content">
+                            <p>Discover the forefront of digital expertise at our Computer Training & Information Technology Institute. Embark on a journey of hands-on learning, unraveling the complexities of IT systems, programming, and Cyber Security. Led by seasoned professionals, our immersive courses blend theory with practical application, equipping you with essential skills for a dynamic tech landscape. From ethical hacking insights to mastering network administration, ignite your potential with real-world simulations. Join our vibrant community to cultivate proficiency and innovation in the realm of technology. Your gateway to a future-proof career starts here.</p>
+                        </div>
+                        <div class="foter__bottom__text">
+                            <div class="footer__bottom__icon">
+                                <i class="icofont-clock-time"></i>
+                            </div>
+                            <div class="footer__bottom__content">
+                                <h6>Opening Hours</h6>
+                                <span>Mon - Sat(10:00 AM - 10:00 PM)</span>
+                                <span>Sunday - Closed</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2  col-md-6 col-sm-6" data-aos="fade-up">
+                    <div class="footerarea__inner">
+                        <div class="footerarea__heading">
+                            <h3>Usefull Links</h3>
+                        </div>
+                        <div class="footerarea__list">
+                            <ul>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="instructor.html">Instructors</a>
+                                </li>
+                                <li>
+                                    <a href="courses.html">All Courses</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="tel://+918882618533"> Call Now</a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                                </li>
+
+                                <li>
+                                    <a href="mailto:contact@geekinstitute.org">contact@geekinstitute.org</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" data-aos="fade-up">
+                    <div class="footerarea__inner footerarea__padding__left">
+                        <div class="footerarea__heading">
+                            <h3>Course</h3>
+                        </div>
+                        <div class="footerarea__list">
+                            <ul>
+                                <li>
+                                    <a href="CyberSecurity.html">Cyber Security & Ethical Hacking</a>
+                                </li>
+                                <li>
+                                    <a href="WebsiteDevelopment.html">Website Designing & Development</a>
+                                </li>
+                                <li>
+                                    <a href="ccc.html">CCC</a>
+                                </li>
+                                <li>
+                                    <a href="dca.html">DCA</a>
+                                </li>
+                                <li>
+                                    <a href="adca.html">ADCA</a>
+                                </li>
+                                <li>
+                                    <a href="java.html">Java Programming</a>
+                                </li>
+                                <li>
+                                    <a href="python.html">Python Programming</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerarea__copyright__wrapper footerarea__copyright__wrapper__2">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="copyright__logo">
+                        <a href="/"><img src="img/logo/logo_2.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="footerarea__copyright__content footerarea__copyright__content__2">
+                        <p align="center">Copyright © <span id="year"></span> <a href="https://www.geekinstitute.org" >The Geek Institute Of Cyber Security</a> All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3">
+                    <div class="footerarea__icon footerarea__icon__2">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/GeekInstitute/"><i class="icofont-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- footer__section__end -->
+    </main>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+        } 
+        if (localStorage.getItem("theme-color") === "light") {
+          document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+        } 
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+
+
+</body>
+
+</html>
