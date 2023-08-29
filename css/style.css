@@ -801,11 +801,11 @@ Header Area
 }
 
 .headerarea__main__menu nav ul > li {
-  margin-top: -25px;
+  margin-top: -20px;
   position: relative;
 }
 .headerarea__main__menu nav ul > li a {
-  padding: 15px 20px;
+  padding: 18px 20px;
   display: block;
   font-size: 16px;
   font-weight: 600;
