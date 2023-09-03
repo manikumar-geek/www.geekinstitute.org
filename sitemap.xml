@@ -1,202 +1,233 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  created with sitemap generator https://octopus.do  -->
 
-
-<url>
-  <loc>https://www.geekinstitute.org/</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/about</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/courses</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/CyberSecurity</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/WebsiteDevelopment</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/WebsiteDesigning</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/WebsiteBackend</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/ccc</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/dca</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/adca</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/LinuxServerAdmin</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/WindowsServerAdmin</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/html</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/css</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/javascript</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/sass</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/php</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/mysql</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/git</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/java</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/python</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/c</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/wordpress</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/linux</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/contact</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/MongoDB</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/ReactJs</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/bash</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/EthicalHacking</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/phpmyadmin</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/windows</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/restapi</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/bootstrap</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/NodeJs</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/DigitalMarketing</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/assembly</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/MS-Office</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.geekinstitute.org/index</loc>
-  <lastmod>2023-09-03T05:14:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+    <url>
+        <loc>https://www.geekinstitute.org</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/about</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/courses</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/websitedevelopment</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/cybersecurity</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/websitedesigning</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/websitebackend</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/ccc</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/dca</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/adca</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/linuxserveradmin</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/windowsserveradmin</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/html</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/javascript</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/css</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/php</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/sass</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/mysql</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/git</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/java</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/python</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/c</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/wordpress</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/linux</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/contact</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/mongodb</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/reactjs</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/bash</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/phpmyadmin</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/ethicalhacking</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/windows</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/restapi</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/bootstrap</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/nodejs</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/assembly</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/digitalmarketing</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/ms-office</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.geekinstitute.org/index</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
 </urlset>
