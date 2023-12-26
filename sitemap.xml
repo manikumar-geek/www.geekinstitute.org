@@ -26,6 +26,12 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
+        <url>
+        <loc>https://www.geekinstitute.org/MERN</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
     <url>
         <loc>https://www.geekinstitute.org/GCCSP</loc>
         <lastmod>2023-09-03</lastmod>
