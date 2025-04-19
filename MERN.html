@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Full Stack Web Development (MERN) | The Geek Institute of Cyber Security</title>
-    <meta name="description" content="MERN Stack: Unifying MongoDB, Express.js, React.js, and Node.js for seamless full-stack web development, crafting dynamic, scalable, and efficient applications.">
+    <meta name="description"
+        content="MERN Stack: Unifying MongoDB, Express.js, React.js, and Node.js for seamless full-stack web development, crafting dynamic, scalable, and efficient applications.">
     <meta name="description" content="The Geek Institute of Cyber Security">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -25,21 +26,21 @@
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-          document.documentElement.classList.add("is_dark");
-        } 
+            document.documentElement.classList.add("is_dark");
+        }
         if (localStorage.getItem("theme-color") === "light") {
-          document.documentElement.classList.remove("is_dark");
+            document.documentElement.classList.remove("is_dark");
         } 
     </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z837YNE6B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z837YNE6B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-7Z837YNE6B');
-</script>
+        gtag('config', 'G-7Z837YNE6B');
+    </script>
 </head>
 
 
@@ -47,19 +48,29 @@
     <!-- pre loader area start -->
     <div id="back__preloader">
         <div id="back__circle_loader"></div>
-            <div class="back__loader_logo">
-                <img src="img/pre.png" alt="Preload">
-            </div>
+        <div class="back__loader_logo">
+            <img src="img/pre.png" alt="Preload">
         </div>
+    </div>
     </div>
     <!-- pre loader area end -->
 
     <!-- Dark/Light area start -->
     <div class="mode_switcher my_switcher">
         <button id="light--to-dark-button" class="light align-items-center">
-            <svg xmlns="https://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+            <svg xmlns="https://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512">
+                <path
+                    d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="32" />
+            </svg>
 
-            <svg xmlns="https://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"/><circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg>
+            <svg xmlns="https://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                    d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
+                <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-miterlimit="10" stroke-width="32" />
+            </svg>
 
             <span class="light__mode">Light</span>
             <span class="dark__mode">Dark</span>
@@ -96,16 +107,20 @@
                             <div class="topbar__list">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/TheGeekInstitute/"><i class="icofont-facebook"></i></a>
+                                        <a href="https://www.facebook.com/TheGeekInstitute/"><i
+                                                class="icofont-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                        <a href="https://twitter.com/Geek_Institute/"><i
+                                                class="icofont-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                        <a href="https://www.instagram.com/geekinstitute/"><i
+                                                class="icofont-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                        <a href="https://www.youtube.com/@TheGeekInstitute"><i
+                                                class="icofont-youtube-play"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -116,10 +131,10 @@
         </div>
         <!-- topbar__section__end -->
 
-              
-                       
-           <!-- headar section start -->
-           <header>
+
+
+        <!-- headar section start -->
+        <header>
             <div class="headerarea headerarea__3 header__sticky header__area">
                 <div class="container desktop__menu__wrapper">
                     <div class="row">
@@ -137,31 +152,34 @@
                                         <li><a href="/">Home</li>
 
                                         <li><a class="headerarea__has__dropdown" href="about">About
-                                         <li><a class="headerarea__has__dropdown" href="https://blog.geekinstitute.org">Blog
-                                      
-                                    </a>
+                                        <li><a class="headerarea__has__dropdown"
+                                                href="https://blog.geekinstitute.org">Blog
+
+                                            </a>
                                         </li>
-                                        
+
                                         <li><a class="headerarea__has__dropdown" href="courses">Courses
-                                        <i class="icofont-rounded-down"></i>
-                                    </a>
+                                                <i class="icofont-rounded-down"></i>
+                                            </a>
                                             <ul class="headerarea__submenu">
-                                             <li><a href="GCCSP">Geek Certified Cyber Security Professional (GCCSP)</a></li>
+                                                <li><a href="GCCSP">Geek Certified Cyber Security Professional
+                                                        (GCCSP)</a></li>
                                                 <li><a href="EthicalHacking">Ethical Hacking</a></li>
-                                                <li><a href="WebsiteDevelopment">Website Designing &amp; Development</a></li>
+                                                <li><a href="WebsiteDevelopment">Website Designing &amp; Development</a>
+                                                </li>
                                                 <li><a href="WebsiteDesigning">Website Front-end</a></li>
                                                 <li><a href="WebsiteBackend">Website Back-end</a></li>
                                                 <li><a href="MERN">Full Stack Web Development (MERN)</a></li>
                                                 <li><a href="dca">DCA</a></li>
                                                 <li><a href="adca">ADCA</a></li>
-                                               <li><a href="LinuxServerAdmin">LinuxServerAdmin</a></li>
-                                                 <li><a href="WindowsServerAdmin">WindowsServerAdmin</a></li>
+                                                <li><a href="LinuxServerAdmin">LinuxServerAdmin</a></li>
+                                                <li><a href="WindowsServerAdmin">WindowsServerAdmin</a></li>
                                                 <li><a href="courses">All Courses</a></li>
                                             </ul>
                                         </li>
                                         <li><a class="headerarea__has__dropdown" href="#">Programming
-                                        <i class="icofont-rounded-down"></i>
-                                        </a>
+                                                <i class="icofont-rounded-down"></i>
+                                            </a>
                                             <ul class="headerarea__submenu">
 
                                                 <li><a href="html">HTML</a></li>
@@ -178,7 +196,7 @@
                                                 <li><a href="csharp">C#</a></li>
                                                 <li><a href="wordpress">Wordpress</a></li>
                                                 <li><a href="linux">Linux</a></li>
- 
+
                                             </ul>
                                         </li>
                                         <li><a href="contact">Contact</a>
@@ -190,11 +208,12 @@
                         </div>
 
 
-                        
+
                         <div class="col-xl-3 col-lg-3 col-md-6">
                             <div class="headerarea__right">
                                 <div class="headerarea__login">
-                                    <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                                    <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join
+                                        Now</a>
                                 </div>
                                 <div class="headerarea__button">
                                     <a href="tel://+918882618533"><i class="icofont-ui-call"></i> +91 8882618533</a>
@@ -247,8 +266,9 @@
                                 <li class="menu-item-has-children"><a href="/">Home</a>
                                 </li>
                                 <li class="menu-item-has-children "><a href="about">About</a></li>
-                            
-                                <li class="menu-item-has-children"><a href="https://blog.geekinstitute.org">Blog</a></li>
+
+                                <li class="menu-item-has-children"><a href="https://blog.geekinstitute.org">Blog</a>
+                                </li>
                                 <li class="menu-item-has-children "><a href="courses">Courses</a>
                                     <ul class="dropdown">
                                         <li><a href="GCCSP">Geek Certified Cyber Professional (GCCSP)</a></li>
@@ -259,8 +279,8 @@
                                         <li><a href="MERN">Full Stack Web Development (MERN)</a></li>
                                         <li><a href="dca">DCA</a></li>
                                         <li><a href="adca">ADCA</a></li>
-                                       <li><a href="LinuxServerAdmin">LinuxServerAdmin</a></li>
-                                         <li><a href="WindowsServerAdmin">WindowsServerAdmin</a></li>
+                                        <li><a href="LinuxServerAdmin">LinuxServerAdmin</a></li>
+                                        <li><a href="WindowsServerAdmin">WindowsServerAdmin</a></li>
                                         <li><a href="courses">All Courses</a></li>
                                     </ul>
                                 </li>
@@ -286,7 +306,7 @@
                                     </ul>
                                 </li>
 
-                                
+
 
                                 <li><a class="menu-item-has-children" href="contact">Contact</a></li>
                             </ul>
@@ -296,15 +316,19 @@
 
                 </div>
                 <div class="mobile-social-wrap">
-                    <a class="facebook" href="https://www.facebook.com/TheGeekInstitute/"><i class="icofont icofont-facebook"></i></a>
-                    <a class="twitter" href="https://twitter.com/Geek_Institute/"><i class="icofont icofont-twitter"></i></a>
-                    <a class="instagram" href="https://www.instagram.com/geekinstitute/"><i class="icofont icofont-instagram"></i></a>
-                    <a class="google" href="https://www.youtube.com/@TheGeekInstitute/"><i class="icofont icofont-youtube-play"></i></a>
+                    <a class="facebook" href="https://www.facebook.com/TheGeekInstitute/"><i
+                            class="icofont icofont-facebook"></i></a>
+                    <a class="twitter" href="https://twitter.com/Geek_Institute/"><i
+                            class="icofont icofont-twitter"></i></a>
+                    <a class="instagram" href="https://www.instagram.com/geekinstitute/"><i
+                            class="icofont icofont-instagram"></i></a>
+                    <a class="google" href="https://www.youtube.com/@TheGeekInstitute/"><i
+                            class="icofont icofont-youtube-play"></i></a>
                 </div>
             </div>
         </div>
         <!-- Mobile Menu end Here -->
-        
+
         <!-- theme fixed shadow -->
         <div>
             <div class="theme__shadow__circle"></div>
@@ -335,7 +359,7 @@
                             <div class="course__button__wraper" data-aos="fade-up">
                                 <div class="course__button">
                                     <a href="#">Website</a>
-                                    
+
                                 </div>
                             </div>
                             <div class="course__details__heading" data-aos="fade-up">
@@ -348,7 +372,8 @@
                                 <div class="registerarea__content course__details__video">
                                     <div class="registerarea__video">
                                         <div class="video__pop__btn">
-                                            <a class="video-btn" href="Videos/intro.mp4"> <img src="img/icon/video.png" alt=""></a>
+                                            <a class="video-btn" href="Videos/intro.mp4"> <img src="img/icon/video.png"
+                                                    alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -385,22 +410,32 @@
                                     <div class="col-xl-12">
                                         <ul class="nav  course__tap__wrap" id="myTab" role="tablist">
                                             <li class="nav-item" role="presentation">
-                                                <button class="single__tab__link active" data-bs-toggle="tab" data-bs-target="#projects__one" type="button"><i class="icofont-paper"></i>Description</button>
+                                                <button class="single__tab__link active" data-bs-toggle="tab"
+                                                    data-bs-target="#projects__one" type="button"><i
+                                                        class="icofont-paper"></i>Description</button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="single__tab__link" data-bs-toggle="tab" data-bs-target="#projects__two" type="button"><i class="icofont-book-alt"></i>Course Outline</button>
+                                                <button class="single__tab__link" data-bs-toggle="tab"
+                                                    data-bs-target="#projects__two" type="button"><i
+                                                        class="icofont-book-alt"></i>Course Outline</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="tab-content tab__content__wrapper" id="myTabContent">
 
-                                    <div class="tab-pane fade active show" id="projects__one" role="tabpanel" aria-labelledby="projects__one">
+                                    <div class="tab-pane fade active show" id="projects__one" role="tabpanel"
+                                        aria-labelledby="projects__one">
                                         <div class="experence__heading">
                                             <h5>Course Description:</h5>
                                         </div>
                                         <div class="experence__description">
-                                            <p class="description__1">This hands-on MERN Full Stack Web Development course is designed for aspiring developers and programmers seeking to master the art of both front-end and back-end development. The curriculum is structured to provide a balanced blend of theory and practical application, allowing students to grasp the intricacies of each component in the MERN stack.
+                                            <p class="description__1">This hands-on MERN Full Stack Web Development
+                                                course is designed for aspiring developers and programmers seeking to
+                                                master the art of both front-end and back-end development. The
+                                                curriculum is structured to provide a balanced blend of theory and
+                                                practical application, allowing students to grasp the intricacies of
+                                                each component in the MERN stack.
                                             </p>
                                         </div>
 
@@ -410,52 +445,66 @@
                                         <div class="experence__description">
                                             <p class="description__1">
                                                 Basic understanding of HTML, CSS, and JavaScript
-                                              
+
                                             </p>
                                             <p class="description__1">
-                                            Familiarity with version control (Git/GitHub)
+                                                Familiarity with version control (Git/GitHub)
                                             </p>
-                                          
+
                                         </div>
 
                                     </div>
 
-                                    <div class="tab-pane fade" id="projects__two" role="tabpanel" aria-labelledby="projects__two">
+                                    <div class="tab-pane fade" id="projects__two" role="tabpanel"
+                                        aria-labelledby="projects__two">
 
 
                                         <div class="accordion content__cirriculum__wrap" id="accordionExample">
-                                            
-                                            
+
+
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                        Module 1: Introduction to Web Development and Overview of MERN Stack
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        Module 1: Introduction to Web Development
                                                     </button>
                                                 </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
 
-                                                                <h5>Understanding the Basics of Web Development</h5>
+                                                                <h5>What is web development?
+                                                                </h5>
                                                             </div>
                                                         </div>
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Overview of Front-end and Back-end Development</h5>
+                                                                <h5>Front-end vs Back-end vs Full Stack
+                                                                </h5>
                                                             </div>
                                                         </div>
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Introduction to MERN Stack</h5>
+                                                                <h5>Overview of MERN Stack: MongoDB, Express.js,
+                                                                    React.js, Node.js
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Setting Up Development Environment (Node.js, npm, MongoDB, etc.)</h5>
+                                                                <h5>Tools and environment setup: VS Code, Git, npm,
+                                                                    MongoDB Compass, Postman</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Understanding RESTful architecture and APIs</h5>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -465,28 +514,45 @@
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                                        Module 2:  HTML, CSS, and Front-end Basics
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="true" aria-controls="collapseTwo">
+                                                        Module 2: HTML, CSS, and Responsive Design
                                                     </button>
                                                 </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>HTML5 and Semantic HTML</h5>
+                                                                <h5>HTML5: structure, tags, semantic elements</h5>
                                                             </div>
                                                         </div>
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>CSS3 and Styling Techniques</h5>
+                                                                <h5>CSS3: selectors, box model, positioning, transitions
+                                                                </h5>
                                                             </div>
                                                         </div>
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Responsive Design and CSS Frameworks (Bootstrap or Tailwind)</h5>
+                                                                <h5>Flexbox and CSS Grid
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Responsive Web Design with Media Queries
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Bootstrap and Tailwind CSS introduction
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -495,99 +561,125 @@
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                                        Module 3: JavaScript and React.js (Front-end)
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="true" aria-controls="collapseThree">
+                                                        Module 3: JavaScript Essentials
                                                     </button>
                                                 </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Introduction to JavaScript and ES6</h5>
+                                                                <h5>JavaScript syntax, variables, and data types
+                                                                </h5>
                                                             </div>
                                                         </div>
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>React.js Basics and Components</h5>
+                                                                <h5>Arrays, objects, functions, and loops
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>State and Props in React</h5>
+                                                                <h5>ES6+ features: let/const, arrow functions,
+                                                                    spread/rest, destructuring
+                                                                </h5>
                                                             </div>
-                                                        </div>  
+                                                        </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>React Router for Navigation</h5>
+                                                                <h5>DOM manipulation and event handling
+                                                                </h5>
                                                             </div>
-                                                        </div>                                             
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Introduction to Fetch API and JSON
+                                                                </h5>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingFour">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                                        Module 4: Node.js and Express.js (Back-end)
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                        aria-expanded="true" aria-controls="collapseFour">
+                                                        Module 4: Version Control with Git and GitHub
                                                     </button>
                                                 </h2>
-                                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                <div id="collapseFour" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Introduction to Node.js</h5>
+                                                                <h5>Installing and configuring Git
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Building RESTful APIs with Express.js</h5>
+                                                                <h5>Git commands: clone, commit, push, pull, branch,
+                                                                    merge
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Middleware and Routing</h5>
+                                                                <h5>Managing repositories on GitHub
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Express.js and MongoDB Integration</h5>
+                                                                <h5>Collaboration and resolving merge conflicts</h5>
                                                             </div>
                                                         </div>
-                                                  
+
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingFive">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                                        Module 5: MongoDB and Mongoose (Database)
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                        aria-expanded="true" aria-controls="collapseFive">
+                                                        Module 5: Advanced JavaScript & Modern Practices
                                                     </button>
                                                 </h2>
-                                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                <div id="collapseFive" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
 
-                                                                <h5>Introduction to MongoDB</h5>
+                                                                <h5>Closures, callbacks, and promises</h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>CRUD Operations in MongoDB</h5>
+                                                                <h5>Async/await and handling asynchronous operations
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Mongoose ODM (Object Data Modeling)</h5>
+                                                                <h5>JavaScript modules and bundling
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Data Validation and Schema Design</h5>
+                                                                <h5>Error handling and debugging techniques</h5>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -596,26 +688,64 @@
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingSix">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                                        Module 6: Advanced React.js and State Management
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                                        aria-expanded="true" aria-controls="collapseSix">
+                                                        Module 6: React.js Front-End Development
                                                     </button>
                                                 </h2>
-                                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                <div id="collapseSix" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>React Hooks and Functional Components</h5>
+                                                                <h5>Introduction to React and component-based
+                                                                    architecture</h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>State Management with Context API and Redux</h5>
+                                                                <h5>JSX syntax and rendering elements
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Handling Forms in React</h5>
+                                                                <h5>Functional vs class components
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>State, props, and event handling
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>React Hooks: useState, useEffect, useRef, useContext
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Conditional rendering and list rendering
+
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Form handling and validation
+
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>React Router for navigation
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -624,63 +754,559 @@
 
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingSeven">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                                                        Module 7: Git and GitHub for Version Control
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                                        aria-expanded="true" aria-controls="collapseSeven">
+                                                        Module 7: Styling in React
                                                     </button>
                                                 </h2>
-                                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Introduction to version control with Git.
+                                                                <h5>CSS modules, styled-components
+
                                                                 </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Collaborative development workflows using 
-                                                                    GitHub.</h5>
+                                                                <h5>Tailwind CSS with React
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Cloning, branching, merging, and resolving 
-                                                                    conflicts</h5>
+                                                                <h5>Responsive design in React applications
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Animations with Framer Motion
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            
+
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingEight">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                                                        Module 8: Deployment and Project Development
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                                        aria-expanded="true" aria-controls="collapseEight">
+                                                        Module 8: Backend Development with Node.js
                                                     </button>
                                                 </h2>
-                                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                                <div id="collapseEight" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
 
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Deployment Strategies (Heroku, Netlify)</h5>
+                                                                <h5>Introduction to Node.js and npm
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Best Practices for Production Deployment</h5>
+                                                                <h5>Building a server with HTTP module
+                                                                </h5>
                                                             </div>
                                                         </div>
                                                         <div class="scc__wrap">
                                                             <div class="scc__info">
-                                                                <h5>Final Project: Full Stack Web Application</h5>
+                                                                <h5>Understanding the Event Loop</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Creating RESTful APIs with Express.js
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Middleware and routing in Express
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Error handling and logging</h5>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingNine">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                                        aria-expanded="true" aria-controls="collapseNine">
+                                                        Module 9: Working with MongoDB and Mongoose
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseNine" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>NoSQL vs SQL databases
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Introduction to MongoDB and MongoDB Atlas
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>CRUD operations using MongoDB
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Integrating MongoDB with Mongoose
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Schema design, validations, and population
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                                        aria-expanded="true" aria-controls="collapseTen">
+                                                        Module 10: Full Stack Integration
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Connecting React front-end with Express/Node back-end
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Using Axios or Fetch for API requests
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Creating reusable API endpoints
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Managing state with React Context or Redux (optional)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Cross-Origin Resource Sharing (CORS) and API security
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingEleven">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                                        aria-expanded="true" aria-controls="collapseEleven">
+                                                        Module 11: Authentication and Authorization
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEleven" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>User authentication with JWT (JSON Web Tokens)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Password hashing with bcrypt
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Login, register, logout functionality
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Protected routes and role-based access control
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Cookies vs Tokens
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwelve">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                                        aria-expanded="true" aria-controls="collapseTwelve">
+                                                        Module 12: Deployment and Hosting
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwelve" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Preparing front-end and back-end for production
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Deploying Node.js API to platforms like Render, Railway, or Heroku
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Deploying React front-end to Netlify or Vercel
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Hosting MongoDB with Atlas
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Environment variables and configuration
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingThirteen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
+                                                        aria-expanded="true" aria-controls="collapseThirteen">
+                                                        Module 13: Advanced Features and Optimization
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThirteen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Pagination and filtering in APIs
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>File uploads with Multer
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Image storage using Cloudinary or Firebase
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Performance optimization for React apps
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Code splitting and lazy loading
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Caching techniques
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFourteen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFourteen"
+                                                        aria-expanded="true" aria-controls="collapseFourteen">
+                                                        Module 14: Testing and Debugging
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFourteen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Debugging tools and techniques (browser dev tools, console, Postman)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Unit testing with Jest
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Component testing in React with React Testing Library
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>API testing with Postman or Supertest
+
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFifteen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
+                                                        aria-expanded="true" aria-controls="collapseFifteen">
+                                                        Module 15: Real-world Project Development
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFifteen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Building a complete MERN stack project (e.g., E-commerce, Blog, Social Media app)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>GitHub project structure and collaboration
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Project presentation and documentation
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Code quality and code reviews
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSixteen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSixteen"
+                                                        aria-expanded="true" aria-controls="collapseSixteen">
+                                                        Module 16: Soft Skills & Freelancing Essentials
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSixteen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Writing clean and readable code
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Developer portfolio and resume creation
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Freelancing platforms (Upwork, Fiverr)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Introduction to Agile, Scrum & working with teams
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingSeventeen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeventeen"
+                                                        aria-expanded="true" aria-controls="collapseSeventeen">
+                                                        Module 17: Admin Dashboard & Charting
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Admin panel using React
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Role-based permissions
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Data visualization with Recharts or Chart.js
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Analytics dashboard implementation
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingEighteen">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseEighteen"
+                                                        aria-expanded="true" aria-controls="collapseEighteen">
+                                                        Module 18: AI Integration in MERN Stack Projects
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseEighteen" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Introduction to AI and its role in web development
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Using OpenAI's GPT models via API (e.g., ChatGPT integration)
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Building intelligent chatbots with React + Node.js
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Sentiment analysis using external ML APIs
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Image recognition using TensorFlow.js or external APIs
+
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>AI-powered search and recommendations
+
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="scc__wrap">
+                                                            <div class="scc__info">
+                                                                <h5>Ethics and responsible AI usage in web applications
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -689,34 +1315,52 @@
                             <div class="course__list__wraper" data-aos="fade-up">
                                 <div class="blog__details__heading__2">
                                     <h5>Course Objectives:</h5>
-                                    
+
                                 </div>
                                 <div class="aboutarea__list__2 blog__details__list__2" data-aos="fade-up">
                                     <ul>
                                         <li>
                                             <i class="icofont-check"></i>
-                                            <p><strong>Front-end Foundations: </strong>Dive into HTML5, CSS3, and JavaScript to build a strong foundation for front-end development. Learn the essentials of React.js, a cutting-edge JavaScript library for building user interfaces, and understand how to create responsive and interactive web applications.</p>
+                                            <p><strong>Front-end Foundations: </strong>Dive into HTML5, CSS3, and
+                                                JavaScript to build a strong foundation for front-end development. Learn
+                                                the essentials of React.js, a cutting-edge JavaScript library for
+                                                building user interfaces, and understand how to create responsive and
+                                                interactive web applications.</p>
                                         </li>
 
                                         <li>
                                             <i class="icofont-check"></i>
-                                            <p><strong>Back-end Proficiency with Node.js and Express.js: </strong>: Explore the server-side of web development by delving into Node.js and Express.js. Understand how to build RESTful APIs, handle HTTP requests, and seamlessly integrate server-side logic into your applications.</p>
+                                            <p><strong>Back-end Proficiency with Node.js and Express.js: </strong>:
+                                                Explore the server-side of web development by delving into Node.js and
+                                                Express.js. Understand how to build RESTful APIs, handle HTTP requests,
+                                                and seamlessly integrate server-side logic into your applications.</p>
                                         </li>
 
                                         <li>
                                             <i class="icofont-check"></i>
-                                            <p><strong>Data Management with MongoDB and Mongoose: </strong>Uncover the power of MongoDB, a NoSQL database, and leverage Mongoose for efficient data modeling and interaction. Master CRUD operations, schema design, and data validation, ensuring your application's data layer is robust and scalable.</p>
+                                            <p><strong>Data Management with MongoDB and Mongoose: </strong>Uncover the
+                                                power of MongoDB, a NoSQL database, and leverage Mongoose for efficient
+                                                data modeling and interaction. Master CRUD operations, schema design,
+                                                and data validation, ensuring your application's data layer is robust
+                                                and scalable.</p>
                                         </li>
 
 
                                         <li>
                                             <i class="icofont-check"></i>
-                                            <p><strong>State Management and Advanced React Techniques:   </strong>Move beyond the basics of React.js and delve into advanced concepts such as React Hooks, functional components, and state management with Context API and Redux. Learn to handle forms effectively and enhance the user experience.</p>
+                                            <p><strong>State Management and Advanced React Techniques: </strong>Move
+                                                beyond the basics of React.js and delve into advanced concepts such as
+                                                React Hooks, functional components, and state management with Context
+                                                API and Redux. Learn to handle forms effectively and enhance the user
+                                                experience.</p>
                                         </li>
 
                                         <li>
                                             <i class="icofont-check"></i>
-                                            <p><strong>Deployment Strategies: </strong> Understand deployment best practices and deploy your applications using platforms like Heroku and Netlify. Ensure your projects are optimized for production and accessible to a global audience.</p>
+                                            <p><strong>Deployment Strategies: </strong> Understand deployment best
+                                                practices and deploy your applications using platforms like Heroku and
+                                                Netlify. Ensure your projects are optimized for production and
+                                                accessible to a global audience.</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -767,14 +1411,16 @@
                                                 <i class="icofont-rupee"></i>
                                             </div>
                                             <div class="event__details__date">
-                                                <span class="sb_label">EMI:</span><span style="color: green;">Available</span>
+                                                <span class="sb_label">EMI:</span><span
+                                                    style="color: green;">Available</span>
                                             </div>
                                         </li>
 
                                     </ul>
                                 </div>
                                 <div class="event__details__button">
-                                    <a class="default__button" href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join This Course Now</a>
+                                    <a class="default__button" href="https://wa.me/+918882618533"><i
+                                            class="icofont-brand-whatsapp"></i> Join This Course Now</a>
                                 </div>
 
                             </div>
@@ -786,16 +1432,20 @@
                                 <div class="follow__icon">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/TheGeekInstitute/"><i class="icofont-facebook"></i></a>
+                                            <a href="https://www.facebook.com/TheGeekInstitute/"><i
+                                                    class="icofont-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                            <a href="https://twitter.com/Geek_Institute/"><i
+                                                    class="icofont-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                            <a href="https://www.instagram.com/geekinstitute/"><i
+                                                    class="icofont-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                            <a href="https://www.youtube.com/@TheGeekInstitute"><i
+                                                    class="icofont-youtube-play"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -819,7 +1469,15 @@
                                     <h3>About Us</h3>
                                 </div>
                                 <div class="footerarea__content">
-                                    <p>Discover the forefront of digital expertise at our Computer Training & Information Technology Institute. Embark on a journey of hands-on learning, unraveling the complexities of IT systems, programming, and Cyber Security. Led by seasoned professionals, our immersive courses blend theory with practical application, equipping you with essential skills for a dynamic tech landscape. From ethical hacking insights to mastering network administration, ignite your potential with real-world simulations. Join our vibrant community to cultivate proficiency and innovation in the realm of technology. Your gateway to a future-proof career starts here.</p>
+                                    <p>Discover the forefront of digital expertise at our Computer Training &
+                                        Information Technology Institute. Embark on a journey of hands-on learning,
+                                        unraveling the complexities of IT systems, programming, and Cyber Security. Led
+                                        by seasoned professionals, our immersive courses blend theory with practical
+                                        application, equipping you with essential skills for a dynamic tech landscape.
+                                        From ethical hacking insights to mastering network administration, ignite your
+                                        potential with real-world simulations. Join our vibrant community to cultivate
+                                        proficiency and innovation in the realm of technology. Your gateway to a
+                                        future-proof career starts here.</p>
                                 </div>
                                 <div class="foter__bottom__text">
                                     <div class="footer__bottom__icon">
@@ -831,7 +1489,7 @@
                                         <span>Sunday - Closed</span>
                                     </div>
                                 </div>
-        
+
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2  col-md-6 col-sm-6" data-aos="fade-up">
@@ -847,7 +1505,7 @@
                                         <li>
                                             <a href="https://blog.geekinstitute.org">Blog</a>
                                         </li>
-                                       
+
                                         <li>
                                             <a href="courses">All Courses</a>
                                         </li>
@@ -858,16 +1516,17 @@
                                             <a href="tel://+918882618533"> Call Now</a>
                                         </li>
                                         <li>
-                                            <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i> Join Now</a>
+                                            <a href="https://wa.me/+918882618533"><i class="icofont-brand-whatsapp"></i>
+                                                Join Now</a>
                                         </li>
-        
+
                                         <li>
                                             <a href="mailto:contact@geekinstitute.org">contact@geekinstitute.org</a>
                                         </li>
                                     </ul>
                                 </div>
-        
-        
+
+
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" data-aos="fade-up">
@@ -913,66 +1572,72 @@
                         </div>
                         <div class="col-xl-6 col-lg-6">
                             <div class="footerarea__copyright__content footerarea__copyright__content__2">
-                                <p align="center">Copyright © <span id="year"></span> <a href="https://www.geekinstitute.org" >The Geek Institute Of Cyber Security</a> All Rights Reserved.</p>
+                                <p align="center">Copyright © <span id="year"></span> <a
+                                        href="https://www.geekinstitute.org">The Geek Institute Of Cyber Security</a>
+                                    All Rights Reserved.</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3">
                             <div class="footerarea__icon footerarea__icon__2">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/TheGeekInstitute/"><i class="icofont-facebook"></i></a>
+                                        <a href="https://www.facebook.com/TheGeekInstitute/"><i
+                                                class="icofont-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/Geek_Institute/"><i class="icofont-twitter"></i></a>
+                                        <a href="https://twitter.com/Geek_Institute/"><i
+                                                class="icofont-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/geekinstitute/"><i class="icofont-instagram"></i></a>
+                                        <a href="https://www.instagram.com/geekinstitute/"><i
+                                                class="icofont-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/@TheGeekInstitute"><i class="icofont-youtube-play"></i></a>
+                                        <a href="https://www.youtube.com/@TheGeekInstitute"><i
+                                                class="icofont-youtube-play"></i></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-        
+
             </div>
         </div>
         <!-- footer__section__end -->
-            </main>
-            <!-- JS here -->
-            <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-            <script src="js/vendor/jquery-3.6.0.min.js"></script>
-            <script src="js/popper.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/isotope.pkgd.min.js"></script>
-            <script src="js/slick.min.js"></script>
-            <script src="js/jquery.meanmenu.min.js"></script>
-            
-            <script src="js/wow.min.js"></script>
-            <script src="js/jquery.scrollUp.min.js"></script>
-            <script src="js/imagesloaded.pkgd.min.js"></script>
-            <script src="js/jquery.magnific-popup.min.js"></script>
-            <script src="js/waypoints.min.js"></script>
-            <script src="js/jquery.counterup.min.js"></script>
-            <script src="js/plugins.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-            <script src="js/main.js"></script>
-        
-            <script>
-                // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-                if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-                  document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
-                } 
-                if (localStorage.getItem("theme-color") === "light") {
-                  document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
-                } 
-        
-                document.getElementById("year").innerHTML = new Date().getFullYear();
-              </script>
-        
-        
-        </body>
-        
-        </html>
+    </main>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+        }
+        if (localStorage.getItem("theme-color") === "light") {
+            document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+        }
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>
