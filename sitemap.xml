@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://www.geekinstitute.org/</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/gccsp</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/mern-stack</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/website-development</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/dsa</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/adca</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/dca</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/html</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/css</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/javascript</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/sass</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/git-github</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/bootstrap</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/react</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/java</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/cpp</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/csharp</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/python</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/bash</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/assembly</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/php</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/laravel</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/nodeJS</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/mysql</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/mongodb</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/about</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/teachers/</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/gallery</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/faq</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/testimonials</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/terms</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/privacy</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/how-to-apply</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/application-form</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/alumni</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/contact</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/teachers/mani-kumar</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/teachers/samit-hota</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/teachers/anurag-kumar</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/teachers/hardik-vyas</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/linux-server-admin</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekinstitute.org/courses/networking</loc>
+  <lastmod>2025-06-14T13:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>
